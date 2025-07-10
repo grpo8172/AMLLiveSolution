@@ -93,4 +93,9 @@ rf = RandomForestClassifier(
 And then a few moments after that to run the consumer:
 -	python3 consumer.py
 
-The producer creates the random data from randomly sampling elements from my original SAML-D dataset which are then fed into the consumer for the prediction whilst printing what the input data was also for reference. If the Flask API is being invoked directly from the frontend then the API will use the predict app (instead of the transaction app) which has been defined inside the AMLAPI.py file. The predict app goes straight to performing the prediction from the input data. 
+The producer creates the random data from randomly sampling elements from my original SAML-D dataset which are then fed into the consumer for the prediction whilst printing what the input data was also for reference. If the Flask API is being invoked directly from the frontend then the API will use the predict app (instead of the transaction app) which has been defined inside the AMLAPI.py file. The predict app goes straight to performing the prediction from the input data.
+
+Please note that I retrieved the sample source data from Kaggle on the following URL:
+https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
+
+
